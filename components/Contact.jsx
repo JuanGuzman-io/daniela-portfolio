@@ -56,6 +56,7 @@ const Contact = () => {
                                 <Link href={'https://www.linkedin.com/in/daniela-g%C3%B3mez-a8641420b'}>
                                     <button
                                         className='btn-contact-social linkedin'
+                                        aria-label='Linked In'
                                     >
                                         <BsLinkedin size="28px" />
                                     </button>
@@ -63,6 +64,7 @@ const Contact = () => {
                                 <Link href={'https://api.whatsapp.com/send?phone=573216392126'}>
                                     <button
                                         className='btn-contact-social whatsapp'
+                                        aria-label='WhatsApp'
                                     >
                                         <BsWhatsapp size="28px" />
                                     </button>
