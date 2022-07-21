@@ -69,7 +69,7 @@ const Navbar = () => {
                             </Link>
                             <Link href={'#contact'}>
                                 <MenuItem color={'pink.500'}>
-                                    Get CV
+                                    Hire Me
                                 </MenuItem>
                             </Link>
                         </MenuList>
