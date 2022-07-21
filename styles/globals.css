@@ -177,7 +177,6 @@ li {
 .education .img {
   background-color: var(--color-beige);
   width: 100%;
-  height: fit-content;
 }
 
 .btn-contact {
