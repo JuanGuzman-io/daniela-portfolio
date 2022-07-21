@@ -8,7 +8,7 @@ export const getServerSideProps = async () => {
   const dataResponse = await client.fetch(dataQuery);
   const cvQuery = '*[_type == "data"] { "cvURL": cv.asset->url }';
   const cvResponse = await client.fetch(cvQuery);
-  const educationQuery = '*[_type == "education"]';
+  const educationQuery = '*[_type == "education"] | order(startDate)';
   const educationResponse = await client.fetch(educationQuery);
   const workQuery = '*[_type == "worksProjects"]';
   const workResponse = await client.fetch(workQuery);
