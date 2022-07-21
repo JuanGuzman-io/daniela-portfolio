@@ -1,5 +1,4 @@
-import { Box, Heading, Container, Text, Stack, Flex } from '@chakra-ui/react';
-import Image from 'next/image';
+import { Box, Heading, Container, Text, Stack, Flex, Image } from '@chakra-ui/react';
 import Link from 'next/link';
 import { urlFor } from '../lib/client';
 
