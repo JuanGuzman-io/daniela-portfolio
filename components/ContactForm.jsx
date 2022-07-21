@@ -46,8 +46,9 @@ export const ContactForm = () => {
                     <InputGroup borderColor="#E0E1E7">
                         <InputLeftElement
                             pointerEvents="none"
-                            children={<BsPerson color="gray.800" />}
-                        />
+                        >
+                            <BsPerson color="gray.800" />
+                        </InputLeftElement>
                         <Input type="text" size="md" placeholder='John Doe' name='user_name' value={userName} onChange={e => setUserName(e.target.value)} isRequired />
                     </InputGroup>
                 </FormControl>
@@ -56,8 +57,9 @@ export const ContactForm = () => {
                     <InputGroup borderColor="#E0E1E7">
                         <InputLeftElement
                             pointerEvents="none"
-                            children={<HiOutlineMail color="gray.800" />}
-                        />
+                        >
+                            <HiOutlineMail color="gray.800" />
+                        </InputLeftElement>
                         <Input type="email" size="md" placeholder='example@email.com' name='user_email' value={userEmail} onChange={e => setUserEmail(e.target.value)} isRequired />
                     </InputGroup>
                 </FormControl>
