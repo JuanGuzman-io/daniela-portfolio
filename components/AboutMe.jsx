@@ -13,7 +13,7 @@ const AboutMe = ({ data }) => {
                 <div className='edu-container'>
                     <div className='education'>
                         <div className="waves"></div>
-                        <img
+                        <Image
                             src={urlFor(data?.image2)}
                             alt={'Daniela'}
                             className='img'
