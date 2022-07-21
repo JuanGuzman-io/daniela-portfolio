@@ -1,4 +1,5 @@
 import { Box, Heading, Container, Text, Stack, Flex } from '@chakra-ui/react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { urlFor } from '../lib/client';
 
@@ -40,7 +41,7 @@ const Hero = ({ data, cv }) => {
                                 className='cv'
                             >Get CV</button>
                         </Link>
-                        <img
+                        <Image
                             src={urlFor(data?.image1)}
                             alt="Daniela Gómez"
                             className='avatar'

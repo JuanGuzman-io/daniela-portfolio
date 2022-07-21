@@ -5,6 +5,7 @@ const Logo = (props) => {
     return (
         <Image
             src='/logo_large.webp'
+            alt='Daniela Gómez'
             width={200}
         />
     );
