@@ -80,7 +80,7 @@ export default function Home({ dataResponse, cvResponse, educationResponse, work
               <Heading mt={'3.5rem'}>Works/Projects</Heading>
               <div className="div"></div>
               <Text color={'gray.600'} fontSize={'xl'}>
-              {dataResponse?.length && dataResponse[0]?.worksDesc}
+                {dataResponse?.length && dataResponse[0]?.worksDesc}
               </Text>
             </Stack>
             <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10} mt={6}>
