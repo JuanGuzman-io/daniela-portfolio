@@ -16,12 +16,18 @@ export default {
         {
             name: 'startDate',
             title: 'Start Date',
-            type: 'date'
+            type: 'date',
+            options: {
+                dateFormat: 'YYYY-MM'
+            }
         },
         {
             name: 'endDate',
             title: 'End Date',
-            type: 'date'
+            type: 'date',
+            options: {
+                dateFormat: 'YYYY-MM'
+            }
         },
         {
             name: 'descDegree',
