@@ -7,6 +7,7 @@ const Logo = (props) => {
             src='/logo_large.webp'
             alt='Daniela Gómez'
             width={200}
+            height={'100%'}
         />
     );
 };

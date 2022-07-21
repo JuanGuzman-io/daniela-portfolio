@@ -12,7 +12,6 @@ const AboutMe = ({ data }) => {
             <Container maxW={'container.lg'} height={'100%'} as={'section'} id={'aboutme'}>
                 <div className='edu-container'>
                     <div className='education'>
-                        <div className="waves"></div>
                         <Image
                             src={urlFor(data?.image2)}
                             alt={'Daniela'}
