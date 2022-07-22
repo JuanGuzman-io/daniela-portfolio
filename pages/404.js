@@ -1,4 +1,4 @@
-import { Box, Button, Container, Image } from "@chakra-ui/react";
+import { Box, Button, Image } from "@chakra-ui/react";
 import Link from "next/link";
 
 const Custom404 = () => {
